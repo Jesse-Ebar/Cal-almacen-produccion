@@ -10,18 +10,27 @@
 <body>
   <header class="app-header"><div class="header-inner"><a class="brand" href="./"><span class="brand-mark">CAL</span><span>Almacén de Producción<small>Catálogo de equipos</small></span></a><span class="header-label">Guía de almacenamiento</span></div></header>
   <main class="shell">
-    <div class="page-heading"><div><p class="eyebrow">ALMACÉN / CATÁLOGO</p><h1>Equipos y contenedores</h1></div><p class="summary">9 contenedores <span>·</span> 7 objetos fotografiados</p></div>
+    <div class="page-heading"><div><p class="eyebrow">ALMACÉN / CATÁLOGO</p><h1>Equipos y contenedores</h1></div><p class="summary">9 contenedores <span>·</span> 25 tipos propuestos</p></div>
     <section class="catalog-controls" aria-label="Buscar y filtrar el catálogo">
       <label class="search" for="search"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="search" placeholder="Buscar equipo, código o contenedor…" autocomplete="off"><span class="search-label">Buscar equipos</span></label>
       <div class="tabs" id="tabs" role="group" aria-label="Filtrar por área"><button type="button" class="tab active" data-filter="all" aria-pressed="true">Todos</button><button type="button" class="tab" data-filter="Música" aria-pressed="false"><span class="dot music"></span>Música</button><button type="button" class="tab" data-filter="Sonido" aria-pressed="false"><span class="dot sound"></span>Sonido</button><button type="button" class="tab" data-filter="Producción" aria-pressed="false"><span class="dot production"></span>Producción</button><button type="button" class="tab" data-filter="Otros" aria-pressed="false">Otros equipos</button></div>
     </section>
+    <aside class="prototype-note">Prototipo para revisión con el encargado; contenidos sujetos a validación. Los tipos propuestos no representan cantidades de existencias.</aside>
     <p id="results" class="result-summary" role="status" aria-live="polite"></p>
     <section aria-labelledby="sectionTitle"><div class="section-heading"><h2 id="sectionTitle">Contenedores</h2><span class="small" id="count"></span></div><div id="cards" class="grid"></div></section>
     <aside class="hint"><strong>Información por validar</strong><p>Los nombres y colores provienen de las fotografías originales. El contenido exacto y las cantidades de la mayoría de los contenedores requieren confirmación del encargado. Consulta la ficha antes de guardar un equipo.</p></aside>
-    <section aria-labelledby="objectsTitle"><div class="section-heading"><h2 id="objectsTitle">Objetos fotografiados</h2><span class="small" id="objectCount"></span></div><div id="objects" class="grid"></div></section>
+    <section id="searchItemsSection" class="hide" aria-labelledby="searchItemsTitle"><div class="section-heading"><h2 id="searchItemsTitle">Objetos encontrados</h2><span id="itemCount" class="small"></span></div><div id="searchItems" class="grid item-grid"></div></section>
+    <section aria-labelledby="objectsTitle"><div class="section-heading"><h2 id="objectsTitle">Equipos sin ubicación validada</h2><span class="small" id="objectCount"></span></div><div id="objects" class="grid"></div></section>
     <footer class="footer">Almacén de Producción <span>·</span> Catálogo visual <span>·</span> Inventario pendiente de validación</footer>
   </main>
-  <div id="overlay" class="modalback hide" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription"><article class="modal"><div class="modal-header"><span>Ficha de almacenamiento</span><button id="close" class="close" type="button" aria-label="Cerrar ficha">×</button></div><img id="modalImg" class="modpic" alt=""><div class="modbody"><div class="detail-meta"><span id="modalTag" class="tag"></span><span id="modalArea" class="area"></span></div><h2 id="modalTitle"></h2><p id="modalDescription" class="small"></p><dl class="detail-fields"><div><dt>Ubicación / contenedor</dt><dd id="modalLocation"></dd></div><div><dt>Validación</dt><dd id="modalStatus" class="status"></dd></div></dl><h3>Información para el almacenamiento</h3><ul class="list" id="modalList"></ul></div></article></div>
+  <div id="overlay" class="modalback hide" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDescription">
+    <article class="modal" tabindex="-1">
+      <div class="modal-header"><button id="back" class="back-button" type="button">← Volver al catálogo</button><button id="close" class="close" type="button" aria-label="Cerrar ficha">×</button></div>
+      <div class="container-overview"><img id="modalImg" class="modpic" alt=""><div class="modbody"><div class="detail-meta"><span id="modalTag" class="tag"></span><span id="modalArea" class="area"></span></div><h2 id="modalTitle"></h2><p id="modalDescription" class="small"></p><p id="modalStatus" class="status"></p></div></div>
+      <div class="detail-content"><div class="section-heading"><h3 id="contentsTitle">Contenido propuesto</h3><span id="contentsCount" class="small"></span></div><p id="contentsNote" class="small">La fotografía real de un objeto no confirma su ubicación. Revisa el estado de cada asociación.</p><div id="containerItems" class="grid item-grid"></div><details class="storage-notes"><summary>Indicaciones y pendientes de validación</summary><ul class="list" id="modalList"></ul></details></div>
+    </article>
+  </div>
   <script src="catalog.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

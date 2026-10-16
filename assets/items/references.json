@@ -1,0 +1,164 @@
+{
+  "MU-01-I02": {
+    "path": "assets/items/jack.jpg",
+    "title": "File:Guitar Jack.JPG",
+    "author": "Claude-Étienne Armingaud - Claudé",
+    "source": "https://commons.wikimedia.org/wiki/File:Guitar_Jack.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "MU-01-I03": {
+    "path": "assets/items/jack.jpg",
+    "title": "File:Guitar Jack.JPG",
+    "author": "Claude-Étienne Armingaud - Claudé",
+    "source": "https://commons.wikimedia.org/wiki/File:Guitar_Jack.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "MU-02-I01": {
+    "path": "assets/items/pedalboard.jpg",
+    "title": "File:Pedalboard (995939579)-2.jpg",
+    "author": "Pedalboard_(995939579).jpg: Michael Morel from Barcelona, Spain\nderivative work: Atlantictire (talk)",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedalboard_(995939579)-2.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "MU-02-I02": {
+    "path": "assets/items/pedal-power.jpg",
+    "title": "File:Voodoo Lab ISO 5 Power Supply.jpg",
+    "author": "Guitar Chalk",
+    "source": "https://commons.wikimedia.org/wiki/File:Voodoo_Lab_ISO_5_Power_Supply.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16",
+    "authorUrl": "https://www.guitarchalk.com/"
+  },
+  "MU-03-I01": {
+    "path": "assets/items/laptop.jpg",
+    "title": "File:IBM Thinkpad R51.jpg",
+    "author": "André Karwath aka Aka",
+    "source": "https://commons.wikimedia.org/wiki/File:IBM_Thinkpad_R51.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "MU-03-I02": {
+    "path": "assets/items/charger.jpg",
+    "title": "File:Notebook-Computer-AC-Adapter.jpg",
+    "author": "Evan-Amos",
+    "source": "https://commons.wikimedia.org/wiki/File:Notebook-Computer-AC-Adapter.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Notebook-Computer-AC-Adapter.jpg#Licensing",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "MU-03-I03": {
+    "path": "assets/items/mouse.jpg",
+    "title": "File:Wired Mouse with white background.jpg",
+    "author": "Pixloom",
+    "source": "https://commons.wikimedia.org/wiki/File:Wired_Mouse_with_white_background.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "MU-03-I04": {
+    "path": "assets/items/hub.png",
+    "title": "File:USB C Hub.png",
+    "author": "Dieter1968",
+    "source": "https://commons.wikimedia.org/wiki/File:USB_C_Hub.png",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "PR-01-I01": {
+    "path": "assets/items/extension.jpg",
+    "title": "File:Yellow extension cord.jpg",
+    "author": "Punker1999",
+    "source": "https://commons.wikimedia.org/wiki/File:Yellow_extension_cord.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "PR-01-I02": {
+    "path": "assets/items/strip.jpg",
+    "title": "File:US-power-strip-rotated.jpg",
+    "author": "Dante Alighieri; versión rotada por Plugwash",
+    "source": "https://commons.wikimedia.org/wiki/File:US-power-strip-rotated.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16",
+    "authorVerification": "https://commons.wikimedia.org/w/index.php?title=File:US-power-strip-rotated.jpg&oldid=1243598345"
+  },
+  "PR-01-I03": {
+    "path": "assets/items/plug.png",
+    "title": "File:Plug adapter.png",
+    "author": "Mets501 at English Wikipedia",
+    "source": "https://commons.wikimedia.org/wiki/File:Plug_adapter.png",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "PR-02-I01": {
+    "path": "assets/items/hdmi.jpg",
+    "title": "File:HDMI Cable 1.JPG",
+    "author": "Kannan shanmugam,shanmugam studio, Kollam",
+    "source": "https://commons.wikimedia.org/wiki/File:HDMI_Cable_1.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "PR-02-I02": {
+    "path": "assets/items/usb.jpg",
+    "title": "File:USB cable with twisttie.jpg",
+    "author": "Shubjt",
+    "source": "https://commons.wikimedia.org/wiki/File:USB_cable_with_twisttie.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "PR-02-I03": {
+    "path": "assets/items/ethernet.jpg",
+    "title": "File:Patch cable with RJ45 connector.jpg",
+    "author": "www.heimnetzwerke.net",
+    "source": "https://commons.wikimedia.org/wiki/File:Patch_cable_with_RJ45_connector.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "PR-02-I04": {
+    "path": "assets/items/iec.jpg",
+    "title": "File:Cabo de forca computador 01.jpg",
+    "author": "Luis Dantas",
+    "source": "https://commons.wikimedia.org/wiki/File:Cabo_de_forca_computador_01.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cabo_de_forca_computador_01.jpg#Licensing",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  },
+  "BG-02-I02": {
+    "path": "assets/items/mic-stand.jpg",
+    "title": "File:Tripod microphone stand.jpg",
+    "author": "Bubba73 (Jud McCranie)",
+    "source": "https://commons.wikimedia.org/wiki/File:Tripod_microphone_stand.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Miniatura de Wikimedia Commons; sin recortes ni retoques.",
+    "retrieved": "2026-10-16"
+  }
+}

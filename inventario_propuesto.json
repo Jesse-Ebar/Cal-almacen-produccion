@@ -1,0 +1,485 @@
+{
+  "proyecto": "Cal-almacen-produccion",
+  "version": "propuesta_para_feedback_v1",
+  "uso": "PROTOTIPO PRELIMINAR, NO INSTRUCCIONES OPERATIVAS DEFINITIVAS",
+  "reglas": {
+    "no_cantidades_inventadas": true,
+    "no_presentar_referencias_como_objetos_verificados": true,
+    "separar_asociacion_de_existencia": true,
+    "no_reemplazar_fotos_reales": true,
+    "mantener_nombres_colores_y_nueve_contenedores": true,
+    "migracion_imagenes": "Las referencias IMG_07xx son fotografías aportadas previamente y presentes como imágenes incrustadas en el primer catálogo. Reutilizarlas desde el código existente; las rutas /mnt/data no existen en el PC del usuario.",
+    "imagenes_externas": "Descargar solo referencias con permiso de reutilización y conservar URL de procedencia, autor y licencia (si aplica), preferentemente desde Wikimedia Commons. Etiquetarlas como Imagen referencial, no real."
+  },
+  "contenedores": [
+    {
+      "codigo": "MU-01",
+      "nombre": "Música - Cables",
+      "area": "Música",
+      "color_identificador": "verde",
+      "fotografia_contenedor": {
+        "clave_original": "0723",
+        "archivo_original": "IMG_0723.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "MU-01-I01",
+          "nombre": "Cable de audio con conectores Jack de 6,35 mm",
+          "relacion_con_contenedor": "propuesta_por_tipo",
+          "existencia_en_inventario": "foto_del_objeto_disponible; cantidad_total_desconocida",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "foto_real",
+            "clave_original": "0720",
+            "archivo_original": "IMG_0720.jpeg"
+          },
+          "observacion": "Foto de un cable con conectores tipo Jack; confirmar uso real."
+        },
+        {
+          "id": "MU-01-I02",
+          "nombre": "Cable de instrumento (guitarra/bajo)",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "coiled guitar instrument cable 6.35mm TS jack photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Solo agregar como referencia visual; no se ha verificado existencia."
+        },
+        {
+          "id": "MU-01-I03",
+          "nombre": "Cable de conexión musical Jack-Jack",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "audio cable 6.35 mm jack to jack patch lead photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Diferenciar de cables de sonido si el encargado lo indica."
+        }
+      ]
+    },
+    {
+      "codigo": "MU-02",
+      "nombre": "Música - Pedalera",
+      "area": "Música",
+      "color_identificador": "verde",
+      "fotografia_contenedor": {
+        "clave_original": "0722",
+        "archivo_original": "IMG_0722.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "MU-02-I01",
+          "nombre": "Pedalera de efectos para instrumento",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "guitar pedalboard effects pedals board top view",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "El nombre de la caja sugiere este equipo; no existe foto real."
+        },
+        {
+          "id": "MU-02-I02",
+          "nombre": "Fuente de alimentación de pedalera",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "guitar pedalboard isolated power supply adapter",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Solo si realmente permanece con la pedalera."
+        },
+        {
+          "id": "MU-02-I03",
+          "nombre": "Cable patch corto de pedalera",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "short guitar pedal patch cables right angle 6.35mm",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Accesorio específico; no afirmar cantidad."
+        }
+      ]
+    },
+    {
+      "codigo": "MU-03",
+      "nombre": "Música - Laptop y accesorios",
+      "area": "Música",
+      "color_identificador": "verde",
+      "fotografia_contenedor": {
+        "clave_original": "0724",
+        "archivo_original": "IMG_0724.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "MU-03-I01",
+          "nombre": "Laptop de música",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "closed laptop computer compact product photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "No hay foto real de laptop ni confirmación de modelo."
+        },
+        {
+          "id": "MU-03-I02",
+          "nombre": "Cargador de laptop",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "laptop power adapter charging cable studio photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Confirmar que se almacena con laptop."
+        },
+        {
+          "id": "MU-03-I03",
+          "nombre": "Mouse o periférico de laptop",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "wired computer mouse isolated photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Accesorio hipotético, dejar referencia."
+        },
+        {
+          "id": "MU-03-I04",
+          "nombre": "Adaptador multipuerto USB-C",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "usb c hub hdmi usb ports photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Evitar adjudicar si pertenece a Producción."
+        }
+      ]
+    },
+    {
+      "codigo": "SO-01",
+      "nombre": "Sonido - Cables C/P",
+      "area": "Sonido",
+      "color_identificador": "naranja",
+      "fotografia_contenedor": {
+        "clave_original": "0721",
+        "archivo_original": "IMG_0721.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "SO-01-I01",
+          "nombre": "Cable de sonido con conector tipo XLR",
+          "relacion_con_contenedor": "propuesta_por_tipo",
+          "existencia_en_inventario": "foto_del_objeto_disponible; cantidad_total_desconocida",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "foto_real",
+            "clave_original": "0712",
+            "archivo_original": "IMG_0712.jpeg"
+          },
+          "observacion": "Conector circular observado; verificar que efectivamente es XLR y su ubicación."
+        },
+        {
+          "id": "SO-01-I02",
+          "nombre": "Cable XLR de audio o micrófono",
+          "relacion_con_contenedor": "propuesta_por_tipo",
+          "existencia_en_inventario": "foto_del_objeto_disponible; cantidad_total_desconocida",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "foto_real",
+            "clave_original": "0714",
+            "archivo_original": "IMG_0714.jpeg"
+          },
+          "observacion": "La foto muestra conectores de apariencia XLR; asignación propuesta a Sonido."
+        },
+        {
+          "id": "SO-01-I03",
+          "nombre": "Adaptador o unión XLR",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "xlr audio connector adapter female male 3 pin",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Accesorio propuesto. Significado C/P aún desconocido."
+        }
+      ]
+    },
+    {
+      "codigo": "PR-01",
+      "nombre": "Producción - Extensiones",
+      "area": "Producción",
+      "color_identificador": "amarillo",
+      "fotografia_contenedor": {
+        "clave_original": "0726",
+        "archivo_original": "IMG_0726.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "PR-01-I01",
+          "nombre": "Extensión eléctrica enrollada",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "electrical extension cable 3 prong grounded coiled photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "No hay foto de una extensión identificada dentro de la caja."
+        },
+        {
+          "id": "PR-01-I02",
+          "nombre": "Regleta eléctrica de múltiples tomas",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "power strip multi outlet electrical photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Una regleta aparece incidentalmente en una imagen; no prueba inventario."
+        },
+        {
+          "id": "PR-01-I03",
+          "nombre": "Adaptador de enchufe eléctrico",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "power plug adapter grounded electrical socket photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Verificar tipo de clavija y certificaciones locales."
+        }
+      ]
+    },
+    {
+      "codigo": "PR-02",
+      "nombre": "Producción - Cables",
+      "area": "Producción",
+      "color_identificador": "amarillo",
+      "fotografia_contenedor": {
+        "clave_original": "0725",
+        "archivo_original": "IMG_0725.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "PR-02-I01",
+          "nombre": "Cable HDMI para señal de video",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "HDMI to HDMI video cable ends black studio photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Solo si Producción administra esta conectividad."
+        },
+        {
+          "id": "PR-02-I02",
+          "nombre": "Cable USB-A / USB-C de datos",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "usb a to usb c cable connector black photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Puede pertenecer a accesorios de laptop; verificar con encargado."
+        },
+        {
+          "id": "PR-02-I03",
+          "nombre": "Cable de red Ethernet RJ45",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "ethernet patch cable RJ45 connector photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Podría almacenarse en otro lugar; referencia provisional."
+        },
+        {
+          "id": "PR-02-I04",
+          "nombre": "Cable de alimentación de equipo audiovisual",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "IEC C13 C14 power cord three pin computer photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Diferente de extensión eléctrica; confirmar ubicación."
+        }
+      ]
+    },
+    {
+      "codigo": "BG-01",
+      "nombre": "Bolsa - Parantes gruesos",
+      "area": "Otros",
+      "color_identificador": "negro",
+      "fotografia_contenedor": {
+        "clave_original": "0719",
+        "archivo_original": "IMG_0719.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "BG-01-I01",
+          "nombre": "Parantes gruesos plegables",
+          "relacion_con_contenedor": "relacion_indicada_por_usuario",
+          "existencia_en_inventario": "foto_del_objeto_disponible; cantidad_total_desconocida",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "foto_real",
+            "clave_original": "0715",
+            "archivo_original": "IMG_0715.jpeg"
+          },
+          "observacion": "Fotografía de parantes robustos; destinados a bolsa para gruesos según el usuario."
+        },
+        {
+          "id": "BG-01-I02",
+          "nombre": "Parante robusto para parlante",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "heavy duty speaker tripod stand folded black",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Tipo adicional hipotético; no incluir JBL como contenido de la bolsa."
+        }
+      ]
+    },
+    {
+      "codigo": "BG-02",
+      "nombre": "Bolsa - Parantes delgados",
+      "area": "Otros",
+      "color_identificador": "negro",
+      "fotografia_contenedor": {
+        "clave_original": "0718",
+        "archivo_original": "IMG_0718.jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "BG-02-I01",
+          "nombre": "Parantes delgados plegables de micrófono",
+          "relacion_con_contenedor": "relacion_indicada_por_usuario",
+          "existencia_en_inventario": "foto_del_objeto_disponible; cantidad_total_desconocida",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "foto_real",
+            "clave_original": "0711",
+            "archivo_original": "IMG_0711.jpeg"
+          },
+          "observacion": "Fotografía de soportes finos; bolsa destinada a parantes delgados según usuario."
+        },
+        {
+          "id": "BG-02-I02",
+          "nombre": "Soporte de micrófono con brazo articulado",
+          "relacion_con_contenedor": "referencia_propuesta",
+          "existencia_en_inventario": "no_confirmada",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "imagen_referencial_pendiente",
+            "busqueda_sugerida": "folded microphone boom stand thin black photo",
+            "credito_licencia": "pendiente"
+          },
+          "observacion": "Puede ser el mismo tipo que los fotografiados, evitar duplicar conteos."
+        }
+      ]
+    },
+    {
+      "codigo": "ML-01",
+      "nombre": "Maletín - Micrófonos",
+      "area": "Otros",
+      "color_identificador": "plateado",
+      "fotografia_contenedor": {
+        "clave_original": "0717(1)",
+        "archivo_original": "IMG_0717(1).jpeg",
+        "tipo": "fotografia_real"
+      },
+      "estatus_contenido": "preliminar_pendiente_de_validacion",
+      "items": [
+        {
+          "id": "ML-01-I01",
+          "nombre": "Micrófono de mano",
+          "relacion_con_contenedor": "relacion_indicada_por_usuario",
+          "existencia_en_inventario": "foto_del_objeto_disponible; cantidad_total_desconocida",
+          "cantidad": null,
+          "imagen": {
+            "tipo": "foto_real",
+            "clave_original": "0716",
+            "archivo_original": "IMG_0716.jpeg"
+          },
+          "observacion": "Fotografía real de dos unidades visibles; cantidad total no confirmada."
+        }
+      ]
+    }
+  ],
+  "equipos_sin_contenedor_confirmado": [
+    {
+      "codigo": "EQ-01",
+      "nombre": "Parlante activo JBL EON 615",
+      "foto_original_clave": "0713",
+      "foto_original_archivo": "IMG_0713.jpeg",
+      "estado": "ubicacion_pendiente",
+      "nota": "No asignar a cajas ni bolsas. La foto real incluye un cable; no asumir que se almacena junto a él."
+    }
+  ],
+  "revisar_antes_de_aprobar": [
+    "Confirmar qué significa C/P en la caja SO-01",
+    "Confirmar cable Jack vs XLR en fotos 0712/0714/0720",
+    "Confirmar dos bolsas y asignación específica de sus parantes",
+    "Confirmar si las extensiones y cables de alimentación realmente se almacenan por separado",
+    "Confirmar existencia, cantidades y modelos de los accesorios solamente referenciales",
+    "Asignar ubicación real al parlante JBL EON 615"
+  ]
+}

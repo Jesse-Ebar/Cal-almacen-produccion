@@ -1,0 +1,24 @@
+PROYECTO: Cal-almacen-produccion
+
+OBJETIVO:
+Incorporar los items del archivo inventario_propuesto.json dentro de las fichas individuales de sus nueve contenedores. El sitio debe verse completo como prototipo de presentación, sin inventar datos factuales.
+
+INSTRUCCIONES A CODEX:
+1) Inspecciona index.html, catalog.js y styles.css existentes, y adapta el modelo de datos siguiendo inventario_propuesto.json; NO reconstruyas la web desde cero.
+2) La cuadrícula principal debe mostrar las NUEVE fotos reales de las cajas, bolsas y maletín que ya están embebidas en el proyecto.
+3) Al pulsar cada contenedor, muestra una cuadrícula con FOTOGRAFÍAS INDIVIDUALES de los items asociados, nombre claro y un estado discreto. Los items con foto_original_clave deben reutilizar esas imágenes reales, ya incorporadas en el proyecto.
+4) Para items de tipo imagen_referencial_pendiente, busca y utiliza una fotografía técnicamente fiel y permitida para reutilización, priorizando Wikimedia Commons. Verifica licencia, conserva autor, fuente y atribución, y guarda la imagen en assets/items/ (nunca dependa de una imagen externa sin licencia comprobada). Si no consigues una imagen segura, usa un símbolo o placeholder neutro claramente marcado como ilustrativo, pero NO inventes una foto de existencias reales.
+5) Mantén visibles las categorías, buscador, nombres y colores existentes. Haz que el buscador encuentre tanto el nombre del objeto como el de la caja.
+6) Nunca muestres cantidades supuestas. Mostrar para contenido no verificado una etiqueta breve 'Referencia por validar' / 'Ubicación propuesta'. Mostrar nota global 'Prototipo para revisión con el encargado; contenidos sujetos a validación'.
+7) No asignes el parlante JBL EON 615 a ninguna caja. Mostrarlo en la sección de 'Equipos sin ubicación validada' con la foto real.
+8) Añade navegación accesible, control de regreso al listado y diseño responsive para celulares. Conserva el estilo profesional que acabamos de aprobar.
+9) Evita mezclar extensiones eléctricas con cables de señal o inventar significado de C/P. Si hay ambigüedad, conserva el estado propuesto.
+10) Prueba rutas, imágenes, búsqueda, clics y diseño móvil, muestra resumen, pero NO hagas commit/push hasta que revise.
+
+ACLARACIONES IMPORTANTES:
+Los archivos IMG_07xx.jpeg indican fotografías aportadas a la conversación y utilizadas dentro del catálogo inicial. No asumas que están en la carpeta local del repositorio. Reutiliza las imágenes embebidas actualmente en catalog.js o en el historial del index.html. El archivo JSON no contiene fotografías.
+
+FUENTES PARA CRITERIOS DE CLASIFICACIÓN:
+- Shure, técnicas de micrófonos: https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording
+- Belkin, diferencia de regletas y protectores: https://www.belkin.com/products/surge-protectors/power-strips/
+- Wikimedia Commons, reutilización de fotos: https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia
